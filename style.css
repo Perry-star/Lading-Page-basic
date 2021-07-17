@@ -1,0 +1,125 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.bg {
+    background-image: url("./img/fundopage.png");
+    background-repeat: no-repeat;
+}
+
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: rgb(243, 243, 243);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+   
+}
+.teladeinicio {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+}
+.imagemdofestival {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+.imagemdofestival img{
+    height: 45rem;
+}
+
+.musicfestival img {
+    height: 6rem;
+    justify-content: space-between;
+    display: flex;
+    margin: 170px;
+    margin-top:1px;
+    position: relative;
+    top: 100px;
+    
+}
+.compreingresso {
+    background-color: #c500f6;
+    padding: 8px;
+    border-radius: 4px;
+    margin:180px;
+    position: relative;
+    top: -20px;
+    
+  
+    
+    
+}
+.compreingresso:hover {
+    background-color:royalblue
+}
+.frasedeefeito {
+    color:rgb(0, 132, 255);
+    margin-top: 1rem;
+    margin: 55px;
+    position: relative;
+    top: -30px;
+  }
+.sonora {
+    position: relative;
+    top: 230px;
+    width: 55%;
+    align-items: center;
+   
+   
+    
+}
+
+.sobre{
+    background-color:pink;
+    position: relative;
+    top: -140px;
+  }
+h2{
+    color: red;
+    border-radius: 4px;
+    position: relative;
+    top:-135px;
+}
+
+
+
+
+
+@media (max-width:1024px) {
+    .teladeinicio {
+        width: 90%;
+    }
+}
+@media (max-width:650px) {
+    .teladeinicio {
+        width:90%
+    }
+    .imagemdofestival{
+        display:none;
+    }
+    .musicfestival {
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
+body{background: mintcream;}
